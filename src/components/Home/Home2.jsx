@@ -22,17 +22,17 @@ function Home2() {
             </p>
           </div>
           <div className="w-full md:w-1/3 mt-12 md:mt-0 flex justify-center">
-             <img src="/src/assets/Projects/chatify.png" alt="avatar" className="w-2/3 md:w-full max-w-xs h-auto rounded-full shadow-2xl shadow-purple-500/20" />
+             <img src="https://cdn.iconscout.com/icon/free/png-512/free-avatar-372-456324.png?f=webp&w=256" alt="avatar" className="w-2/3 md:w-full max-w-xs h-auto rounded-full shadow-2xl shadow-purple-500/20" />
           </div>
         </div>
         <div className="text-center mt-20">
           <h1 className="text-4xl font-bold">FIND ME ON</h1>
           <p className="my-4">Feel free to <span className="text-[#c770f0]">connect</span> with me</p>
           <div className="flex justify-center space-x-4">
-             <a href="https://github.com/soumyajit4419" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors"><AiFillGithub size="2em" /></a>
-             <a href="https://twitter.com/Soumyajit4419" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors"><AiOutlineTwitter size="2em" /></a>
-             <a href="https://www.linkedin.com/in/soumyajit4419/" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors"><FaLinkedinIn size="2em" /></a>
-             <a href="https://www.instagram.com/soumyajit4419" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors"><AiFillInstagram size="2em" /></a>
+             <a href="https://github.com/Sharmasheeno" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors"><AiFillGithub size="2em" /></a>
+             <a href="" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors"><AiOutlineTwitter size="2em" /></a>
+             <a href="https://www.linkedin.com/in/sharmake-hassan-said-8949542b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors"><FaLinkedinIn size="2em" /></a>
+             <a href="" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors"><AiFillInstagram size="2em" /></a>
           </div>
         </div>
       </div>
