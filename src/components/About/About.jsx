@@ -14,7 +14,7 @@ function About() {
                          <Aboutcard />
                     </div>
                     <div className="w-full md:w-5/12 p-4">
-                        <img src="/src/assets/Projects/codeEditor.png" alt="about" className="max-w-full h-auto" />
+                        <img src="https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-1/528230455_2425096847876974_924820121842747217_n.jpg?stp=c60.0.903.903a_dst-jpg_s200x200_tt6&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=5Y1R9HixpX4Q7kNvwEfISJy&_nc_oc=Adm25bl4XA3hXoOjOZIn6qnYLdjvUm-cuw3ti2Fx-u_-FVrQdkmbHKkgtG0wSpHRqyc&_nc_zt=24&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=oanbHoZW2Iaki2GcK1Q4KQ&oh=00_AfXVFAnrbqXaaQCwJbILAnoMHGpCKFM16aZVyem8m1okYQ&oe=689E2550" alt="about" className="max-w-full h-auto" />
                     </div>
                 </div>
                 

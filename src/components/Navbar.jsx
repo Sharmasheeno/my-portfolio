@@ -26,7 +26,7 @@ function Navbar() {
     <nav className={`fixed w-full top-0 z-50 px-4 sm:px-8 py-2 text-lg transition-all duration-300 ${isSticky || isExpanded ? 'bg-[#1b1a2e]/70 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-white text-2xl font-bold flex items-center">
-           <img src="https://placehold.co/120x50/00000000/c770f0?text=SB" alt="brand logo" className="h-10 w-auto" />
+           <img src="" alt="brand logo" className="h-10 w-auto" />
         </Link>
         
         <button onClick={() => setIsExpanded(!isExpanded)} className="md:hidden text-[#be50f4] relative h-8 w-8">
@@ -42,7 +42,7 @@ function Navbar() {
               <span>{link.name}</span>
             </Link>
           ))}
-           <a href="https://github.com/sharmakehassansaid/Portfolio" target="_blank" rel="noopener noreferrer" className="bg-[#934cce]/30 text-white px-3 py-1.5 rounded-md hover:bg-[#a24dd3]/50 transition-transform hover:-translate-y-0.5 flex items-center space-x-2">
+           <a href="https://github.com/Sharmasheeno" target="_blank" rel="noopener noreferrer" className="bg-[#934cce]/30 text-white px-3 py-1.5 rounded-md hover:bg-[#a24dd3]/50 transition-transform hover:-translate-y-0.5 flex items-center space-x-2">
               <CgGitFork />
               <AiFillStar />
            </a>
