@@ -1,9 +1,11 @@
 
 import Home2 from "./Home2";
 import Type from "./Type";
+import Helmet from "../helmat";
 
 function Home() {
   return (
+       <Helmet title="Home">
     <section>
       <div className="relative text-white pt-40 pb-12 bg-gradient-to-bl from-[rgba(17,16,16,0.68)] to-[rgba(12,10,22,0.86)]">
         <div className="container mx-auto px-4">
@@ -27,6 +29,7 @@ function Home() {
       </div>
       <Home2 />
     </section>
+    </Helmet>
   );
 }
 

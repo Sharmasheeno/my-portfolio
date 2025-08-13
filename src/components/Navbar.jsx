@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { AiFillStar, AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser } from "react-icons/ai";
 import { CgGitFork, CgFileDocument } from "react-icons/cg";
+import Helmat from "../components/helmat"
 
 function Navbar() {
   const [isSticky, setIsSticky] = useState(false);
@@ -23,10 +24,11 @@ function Navbar() {
   ];
 
   return (
+ 
     <nav className={`fixed w-full top-0 z-50 px-4 sm:px-8 py-2 text-lg transition-all duration-300 ${isSticky || isExpanded ? 'bg-[#1b1a2e]/70 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-white text-2xl font-bold flex items-center">
-           <img src="" alt="brand logo" className="h-10 w-auto" />
+      SHARM&apos;AKE<strong className="text-[#cd5ff8]">HASSAN</strong>
         </Link>
         
         <button onClick={() => setIsExpanded(!isExpanded)} className="md:hidden text-[#be50f4] relative h-8 w-8">
