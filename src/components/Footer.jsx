@@ -11,7 +11,7 @@ function Footer() {
                         <h3 className="text-sm">Designed and Developed by Sharmake Hassan Said</h3>
                     </div>
                     <div className="w-full md:w-1/3 mb-2 md:mb-0">
-                         <h3 className="text-sm">Copyright © {year} SB</h3>
+                         <h3 className="text-sm">Copyright © {year} SH</h3>
                     </div>
                     <div className="w-full md:w-1/3">
                         <div className="flex justify-center space-x-4">
